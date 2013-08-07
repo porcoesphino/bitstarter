@@ -11,6 +11,7 @@ git push staging-heroku staging:master
 
 git checkout master
 git merge staging
+git push origin master # I added this
 git push production-heroku master:master
 
 git checkout develop #Back to develop
